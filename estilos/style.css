@@ -63,7 +63,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: black;
+  background-color: #000000;
   color: #fff;
   height: 50px;
   border-radius: 12px;
@@ -88,3 +88,7 @@ li button {
   justify-content: center;
 }
 /*PARTE DE BAIXO*/
+
+.done {
+  background-color: #008000;
+}
