@@ -5,7 +5,7 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   background-image: linear-gradient(to top, black, blue);
   display: flex;
   align-items: center;
@@ -72,6 +72,9 @@ li {
 }
 li span {
   font-size: 20px;
+  width: 70%;
+  word-wrap: break-word;
+  text-align: justify;
 }
 
 li button {
@@ -81,6 +84,8 @@ li button {
   border-radius: 12px;
   width: 50px;
   height: 30px;
+  outline: none;
+  margin-left: 2px;
 }
 .buttonopcao {
   display: flex;
