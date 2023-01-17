@@ -12,11 +12,12 @@ body {
   justify-content: center;
 }
 .container {
-  background-color: aqua;
+  background-color: #2c2c2c;
   width: 500px;
   display: flex;
   flex-direction: column;
   padding: 30px;
+  border-radius: 12px;
 }
 
 .divInputTextTop {
@@ -49,6 +50,7 @@ button:hover {
 h1 {
   text-align: center;
   margin-bottom: 20px;
+  color: #fff;
 }
 
 ul {
